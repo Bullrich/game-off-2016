@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 4cfaffa357587ae429e00a607107b40c
+timeCreated: 1479145671
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Glitcher_0
+    21300002: Glitcher_1
+    21300004: Glitcher_2
+    21300006: Glitcher_3
+    21300008: Glitcher_4
+    21300010: Glitcher_5
+    21300012: Glitcher_6
+    21300014: Glitcher_7
+    21300016: Glitcher_8
+    21300018: Glitcher_9
+    21300020: Glitcher_10
+    21300022: Glitcher_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Glitcher_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 4}
+        - {x: 18, y: 54}
+        - {x: -6, y: 54}
+        - {x: -22, y: 24}
+        - {x: -22, y: -49}
+        - {x: -20, y: -50}
+        - {x: -16, y: -50}
+        - {x: -8, y: -62}
+        - {x: 6, y: -62}
+        - {x: 8, y: -61}
+        - {x: 7, y: -55}
+        - {x: 9, y: -62}
+        - {x: 26, y: -62}
+    - name: Glitcher_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 54}
+        - {x: -32, y: 7}
+        - {x: -38, y: -6}
+        - {x: -38, y: -58}
+        - {x: -35, y: -60}
+        - {x: 10, y: -60}
+        - {x: 26, y: -38}
+        - {x: 26, y: 54}
+    - name: Glitcher_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 54}
+        - {x: -1, y: 54}
+        - {x: -32, y: 1}
+        - {x: -42, y: -29}
+        - {x: -42, y: -46}
+        - {x: -30, y: -50}
+        - {x: -23, y: -62}
+        - {x: 2, y: -62}
+        - {x: 7, y: -56}
+        - {x: 28, y: -1}
+        - {x: 28, y: 36}
+    - name: Glitcher_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 48}
+        - {x: -40, y: -15}
+        - {x: -40, y: -53}
+        - {x: -29, y: -62}
+        - {x: 1, y: -62}
+        - {x: 6, y: -60}
+        - {x: 26, y: -7}
+        - {x: 26, y: 31}
+        - {x: 22, y: 48}
+    - name: Glitcher_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: -6}
+        - {x: 58, y: -6}
+        - {x: 63, y: -6}
+        - {x: 64, y: -2}
+        - {x: 64, y: 8}
+        - {x: 9, y: 38}
+        - {x: -37, y: 38}
+        - {x: -40, y: 33}
+        - {x: -40, y: -44}
+        - {x: -39, y: -48}
+        - {x: 49, y: -48}
+        - {x: 64, y: -42}
+        - {x: 64, y: -8}
+    - name: Glitcher_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 46}
+        - {x: -31, y: 46}
+        - {x: -56, y: -10}
+        - {x: -56, y: -41}
+        - {x: -44, y: -60}
+        - {x: 23, y: -60}
+        - {x: 60, y: -22}
+        - {x: 64, y: -11}
+        - {x: 64, y: 28}
+    - name: Glitcher_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 60}
+        - {x: -22, y: 60}
+        - {x: -40, y: 3}
+        - {x: -40, y: -34}
+        - {x: -28, y: -48}
+        - {x: 8, y: -48}
+        - {x: 8, y: -47}
+        - {x: 50, y: -37}
+        - {x: 50, y: 18}
+    - name: Glitcher_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 58}
+        - {x: -60, y: -8}
+        - {x: -60, y: -31}
+        - {x: -47, y: -48}
+        - {x: 12, y: -48}
+        - {x: 64, y: -6}
+        - {x: 64, y: 41}
+        - {x: 19, y: 58}
+    - name: Glitcher_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 54}
+        - {x: -55, y: 54}
+        - {x: -58, y: 28}
+        - {x: -58, y: -48}
+        - {x: 29, y: -48}
+        - {x: 62, y: -24}
+        - {x: 62, y: 26}
+        - {x: 58, y: 30}
+    - name: Glitcher_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 58}
+        - {x: -60, y: 6}
+        - {x: -60, y: -39}
+        - {x: -48, y: -50}
+        - {x: 25, y: -50}
+        - {x: 46, y: -27}
+        - {x: 46, y: 10}
+        - {x: 13, y: 58}
+    - name: Glitcher_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 50}
+        - {x: -54, y: 34}
+        - {x: -54, y: -42}
+        - {x: -31, y: -48}
+        - {x: 39, y: -48}
+        - {x: 50, y: -34}
+        - {x: 50, y: 50}
+    - name: Glitcher_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 2}
+        - {x: 30, y: 2}
+        - {x: 28, y: 0}
+        - {x: -5, y: 50}
+        - {x: -42, y: 50}
+        - {x: -42, y: 9}
+        - {x: -40, y: -53}
+        - {x: -38, y: -54}
+        - {x: -13, y: -54}
+        - {x: 36, y: -17}
+        - {x: 36, y: 0}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

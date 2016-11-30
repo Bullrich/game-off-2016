@@ -1,0 +1,24 @@
+Demo.Test,The time is now<br>Be sure to fight agaisnt the beast!
+Popup.Exit,Exit the game!
+Popup.Start,Start hacking the system!
+Popup.Help,This is a help popup that hasn't been configured :(
+Bootstrap.TakeWeapon,"A user request? Be careful, there are a couple of buggy bootstrap and css files over there. You'll need some help."
+Bootstrap.TakeWeapon2,Be sure to arrive to the <body> safe. That weapon should help.
+Weapon.Console,Obtained CHROME CONSOLE GUN.
+Weapon.Shotgun,Obtained API SHOTGUN
+Html.Bugs,Help me! My house is full of Javascript TypeError bugs! You can't send a form until we deal with the problem.
+Html.BugsCleaned,"Oh, thanks! Here, take this!"
+Html.FormApproved,"Oh, I see you got permision. Then please, come into the form. Let's hope you don't have the wrong password. If not good luck dealing with ajax."
+Html.Form,Where do you think you are going? You don't have values for this form.
+Server.Response,HTTP SERVER RESPONSE SENDED
+Bootstrap.Weird1,They tried to vectorize me before it was cool.
+Bootstrap.Weird2,"Oh, nice gun! Did you get it from a commented function of Bootstrap? Those guys resent me for being included."
+Bootstrap.Weird3,I wonder if xkcd likes bootstrap.
+Bootstrap.Weird4,"One time, a user didn't have the correct password and Ajax got crazy and tried to smash him."
+Bootstrap.Weird5,"Be careful, don't send a form without the right values."
+Bootstrap.Weird6,"Javascript bugs are like women, you can't live without them. By the way, what is a woman?"
+Bootstrap.Weird7,Why does CSS want to kill every user it sees? Who the hell coded that?
+Html.Cold,This request seem a bit strange. Do you think maybe it's a malicious request? Like a virus or a hack?
+Html.Cool,"I don't know and we don't have time, just let him pass to the form."
+Html.CoolBad,"You have my permision, what else do you want?"
+Html.ColdBad,"He gave you permision, what else do you want? A data transfer object?"

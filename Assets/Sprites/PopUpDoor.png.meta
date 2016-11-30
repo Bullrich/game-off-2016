@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 9bb29d1ed9314a44ba7aaaf11080d7bb
+timeCreated: 1480381674
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PopUpDoor_0
+    21300002: PopUpDoor_1
+    21300004: PopUpDoor_2
+    21300006: PopUpDoor_3
+    21300008: PopUpDoor_4
+    21300010: PopUpDoor_5
+    21300012: PopUpDoor_6
+    21300014: PopUpDoor_7
+    21300016: PopUpDoor_8
+    21300018: PopUpDoor_9
+    21300020: PopUpDoor_10
+    21300022: PopUpDoor_11
+    21300024: PopUpDoor_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PopUpDoor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 60}
+        - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 60}
+    - name: PopUpDoor_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 60}
+        - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 60}
+    - name: PopUpDoor_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 60}
+        - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 60}
+    - name: PopUpDoor_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 60}
+        - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 60}
+    - name: PopUpDoor_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 60}
+        - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 60}
+    - name: PopUpDoor_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 52}
+        - {x: -32, y: 52}
+    - name: PopUpDoor_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 38}
+        - {x: -32, y: 38}
+    - name: PopUpDoor_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: 21}
+        - {x: -32, y: 21}
+    - name: PopUpDoor_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: -4}
+        - {x: -32, y: -4}
+    - name: PopUpDoor_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 120
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: -43}
+        - {x: -32, y: -43}
+    - name: PopUpDoor_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: -50}
+        - {x: -32, y: -50}
+    - name: PopUpDoor_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: -50}
+        - {x: -32, y: -50}
+    - name: PopUpDoor_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -60}
+        - {x: 32, y: -60}
+        - {x: 32, y: -50}
+        - {x: -32, y: -50}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
