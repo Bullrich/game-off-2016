@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
+    guid: a6a2e2534dcc22641bc796c57cb38a22
   - enabled: 1
     path: Assets/Scenes/SpawnDTO.unity
+    guid: 6e5d49bd2dd70b7418034724806bbf8a
   - enabled: 1
     path: Assets/Scenes/winGameScreen.unity
+    guid: e390f5877fc106d4386cef685cd519d1

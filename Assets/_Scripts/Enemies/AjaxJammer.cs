@@ -58,7 +58,7 @@ namespace Glitch.Enemy
                     Move(Vector2.down, fallSpeed);
                     canLift = false;
                 }
-                else if (startPos.y - _tran.position.y > 0.1 && canLift)
+                else if (startPos.y - transform.position.y > 0.1 && canLift)
                 {
                     Move(Vector2.up, fallSpeed / 2);
                 }
@@ -74,7 +74,7 @@ namespace Glitch.Enemy
 
         void Move(Vector2 direction, float speed)
         {
-            _tran.Translate(direction * speed * Glitch.Manager.GameManagerBase.DeltaTime);
+            transform.Translate(direction * speed * Glitch.Manager.GameManagerBase.DeltaTime);
         }
 
         void CheckFloor()

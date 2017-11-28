@@ -20,7 +20,6 @@ namespace Glitch.Enemy
         [Range(1, 5)]
         public int damagePerHit;
         protected SpriteRenderer spr;
-        protected Transform _tran;
         [HideInInspector]
         public float damagedAnim;
 
@@ -29,21 +28,20 @@ namespace Glitch.Enemy
         SoundManager sManager;
 
 
-        public override void Start()
+        public override void Awake()
         {
-            base.Start();
+            base.Awake();
             spr = GetComponent<SpriteRenderer>();
-            _tran = transform;
-            startPos = _tran.position;
+            startPos = transform.localPosition;
             audioSource = GetComponent<AudioSource>();
-            sManager = (SoundManager)GameManagerBase.instance.getSFX().script;
+            sManager = (SoundManager) Glitch.Manager.GlitchManager.instance.getSFX().script;
             lifePoints = TotalLifePoints;
         }
 
         public void ResetEnemy()
         {
             lifePoints = TotalLifePoints;
-            _tran.position = startPos;
+            transform.localPosition = startPos;
             gameObject.SetActive(true);
         }
 

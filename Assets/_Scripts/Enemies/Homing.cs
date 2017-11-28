@@ -21,8 +21,8 @@ namespace Glitch.Enemy
 
         void Update()
         {
-            if(Vector2.Distance(_tran.position, player.transform.position) < distanceToFollow)
-            transform.position = Vector2.MoveTowards(new Vector2(_tran.position.x, _tran.position.y), player.transform.position, speed * GameManagerBase.DeltaTime);
+            if(Vector2.Distance(transform.position, player.transform.position) < distanceToFollow)
+            transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), player.transform.position, speed * GameManagerBase.DeltaTime);
         }
 
         public override void ReceiveDamage(int damage)

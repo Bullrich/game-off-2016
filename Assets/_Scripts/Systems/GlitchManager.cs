@@ -44,6 +44,7 @@ namespace Glitch.Manager {
         public void Died()
         {
             lostScreen.gameObject.SetActive(true);
+            TilesManager.instance.ResetDifficulty();
             PlaySfx(SoundManager.Sfx.heroDeath);
         }
 

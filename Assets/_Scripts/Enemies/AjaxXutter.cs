@@ -43,7 +43,7 @@ namespace Glitch.Enemy
         {
             if (active)
             {
-                _tran.Translate((Vector2.right * dir) * Glitch.Manager.GameManagerBase.DeltaTime * speed);
+                transform.Translate((Vector2.right * dir) * Glitch.Manager.GameManagerBase.DeltaTime * speed);
                 spr.flipX = (dir == 1);
                 HorizontalCollisions();
                 UpdateRaycastOrigins();

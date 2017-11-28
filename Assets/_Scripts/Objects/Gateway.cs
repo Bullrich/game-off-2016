@@ -43,7 +43,7 @@ namespace Glitch.Interactable
         IEnumerator WaitToSwitch(Action ActionToDo)
         {
             yield return new WaitUntil(() => Glitch.UI.GameInterface.instance.canSwith);
-            ActionToDo();
+            TilesManager.instance.TransportCharacter();
             transform.parent.gameObject.SetActive(false);
         }
         
@@ -54,6 +54,7 @@ namespace Glitch.Interactable
         
         public void InteractWith()
         {
+            print("Called door!");
             UseDoor();
         }
 

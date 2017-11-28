@@ -40,7 +40,7 @@ public class Bat : Enemy
             anim.Play("CSS_Bat");
         else
             anim.Play("CSS_Bat_Down");
-        _tran.Translate(velocity);
+        transform.Translate(velocity);
         DamageAnim();
     }
 

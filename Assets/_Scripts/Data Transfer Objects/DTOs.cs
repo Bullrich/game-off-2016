@@ -78,6 +78,7 @@ namespace Glitch.DTO
             HtmlForm,
             HtmlCold,
             HtmlCool,
+            Life,
             Empty
         }
 

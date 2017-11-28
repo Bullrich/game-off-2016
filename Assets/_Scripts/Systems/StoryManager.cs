@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using Glitch.Weapons;
 using Glitch.UI;
 using Glitch.Manager;
+using Glitch.Player;
+
 // By @JavierBullrich
 namespace Glitch.Manager
 {
@@ -45,6 +47,12 @@ namespace Glitch.Story
             else
                 Chat(ChatSetup("Bootstrap.TakeWeapon2", null, "Bootstrap"));
         }
+
+        void Life()
+        {
+            Chat(ChatSetup("Life refilled!"));
+        }
+        
         private void GotConsoleWeapon()
         {
             weaponToAssign = 1;
@@ -70,7 +78,7 @@ namespace Glitch.Story
         private void BugsWithJavascript()
         {
             Chat(ChatSetup("Html.Bugs"));
-            if(cleanedJavascriptBugs)
+            //if(cleanedJavascriptBugs)
             Chat(ChatSetup("Html.BugsCleaned", GotShotgunWeapon));
         }
 
@@ -135,6 +143,9 @@ namespace Glitch.Story
                 case StoryDTO.StoryEvents.HtmlCool:
                     ColdConversation(false);
                     break;
+                    case StoryDTO.StoryEvents.Life:
+                        Life();
+                        break;
                 default:
                     Debug.LogWarning("This event isn't registered!");
                     break;

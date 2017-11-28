@@ -29,8 +29,14 @@ namespace Glitch.Player
 
         public override void Interact(IInteractable interactable)
         {
-            switchObject = interactable;
+            if (interactable != null)
+            {
+                switchObject = interactable;
+                resetTime = .5f;
+            }
         }
+
+        private float resetTime = 0f;
 
         public override void Update()
         {
@@ -45,6 +51,9 @@ namespace Glitch.Player
                 }
                 else
                     glAnim.Play("Idle");
+                resetTime -= Time.deltaTime;
+                if (resetTime < 0)
+                    switchObject = null;
             }
         }
 

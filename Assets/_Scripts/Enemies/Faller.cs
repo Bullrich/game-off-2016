@@ -19,12 +19,6 @@ public class Faller : Enemy
         gameObject.SetActive(false);
     }
 
-    public override void Start()
-    {
-        base.Start();
-        
-    }
-
     public override void InteractWith()
     {
         //throw new NotImplementedException();
@@ -48,7 +42,7 @@ public class Faller : Enemy
             spr.sprite = fallingSprite;
             canLift = false;
         }
-        else if (startPos.y - _tran.position.y > 0.1 && canLift)
+        else if (startPos.y - transform.localPosition.y > 0.1 && canLift)
         {
             Move(Vector2.up, fallSpeed / 2);
             spr.sprite = regularSprite;
@@ -64,7 +58,7 @@ public class Faller : Enemy
 
     void Move(Vector2 direction, float speed)
     {
-        _tran.Translate(direction * speed * Glitch.Manager.GameManagerBase.DeltaTime);
+        transform.Translate(direction * speed * Glitch.Manager.GameManagerBase.DeltaTime);
     }
 
     void CheckFloor()
